@@ -1,0 +1,22 @@
+Make sure the script runs without errors. Catch exceptions and report errors to the user.
+
+import math
+print "Welcome to the number guessing game"
+attempts = 0
+random_number =  a random number between 1 and 10
+while number_guessed != random_number:
+  attempts += 1
+  number_guessed = input "Guess a number 1-10"
+  if the number_guessed is higher than the random_number:
+      print("your number is too high")
+      continue
+  elif the number_guessed is lower than the random_number:
+      print("your number is too low")
+      continue
+  elif the number_guessed == random_number:
+      print "Congrats!! You guessed the right number"
+      print "You took {} tries to guess the number".format(attempts)
+      break
+  else:
+      print("Please try again.")
+      break
